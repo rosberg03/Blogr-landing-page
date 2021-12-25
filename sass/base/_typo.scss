@@ -1,0 +1,61 @@
+body {
+    font-family: $f-primary;
+    color: $c-gray--dark;
+    font-weight: $w-light;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.03em;
+}
+
+h1 {
+    font-family: $f-primary;
+    color: $c-white;
+    font-weight: $w-semi-bold;
+    font-size: 6.2rem;
+    line-height: 7rem;
+    letter-spacing: -0.026em;
+}
+
+h2 {
+    font-family: $f-primary;
+    color: $c-secondary;
+    font-weight: $w-semi-bold;
+    font-size: 3.8rem;
+    line-height: 5rem;
+    letter-spacing: -0.015em;
+}
+
+h3 {
+    font-family: $f-primary;
+    color: $c-secondary;
+    font-weight: $w-semi-bold;
+    font-size: 2.8rem;
+    line-height: 5rem;
+    letter-spacing: -0.01em;
+}
+
+.subheader {
+    font-family: $f-primary;
+    color: $c-white;
+    font-weight: $w-light;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0;
+}
+
+a:link,
+a:visited {
+    font-family: $f-other;
+    color: hsl(240, 2%, 79%);
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: 0.2rem underline;
+}
+
+.font-white {
+    color: $c-white;
+}

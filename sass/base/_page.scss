@@ -1,0 +1,5 @@
+body {
+    display: grid;
+    grid-template-columns: [full-start] 15rem [mid-start] 1fr [centerline] 1fr [mid-end] 15rem [full-end];
+    grid-template-rows: 60rem;
+}
